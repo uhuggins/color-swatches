@@ -4,7 +4,7 @@ import type React from "react"
 import { useState } from "react"
 import { ChevronRight, Palette, Eye } from "lucide-react"
 import Image from "next/image"
-import ColorDetailView from "./color-detail-view"
+ 
 
 interface Color {
   name: string
@@ -1409,14 +1409,9 @@ interface ColorPaletteTabsProps {
 
 export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsProps) {
   const [activeTab, setActiveTab] = useState(palettes[0]?.name || "")
-  const [selectedColor, setSelectedColor] = useState<Color | null>(null)
-  const [isDetailOpen, setIsDetailOpen] = useState(false)
+
   const [hoveredImage, setHoveredImage] = useState<string | null>(null)
 
-  const handleColorClick = (color: Color) => {
-    setSelectedColor(color)
-    setIsDetailOpen(true)
-  }
 
 
 
@@ -1581,9 +1576,6 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
         )}
       </div>
 
-      {selectedColor && (
-        <ColorDetailView color={selectedColor} isOpen={isDetailOpen} onClose={() => setIsDetailOpen(false)} />
-      )}
     </>
   )
 }
