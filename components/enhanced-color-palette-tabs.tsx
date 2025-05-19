@@ -1433,14 +1433,14 @@ function ImageModal({
         onClick={(e) => e.stopPropagation()} // Prevent closing when clicking the image
       >
         <div className="h-full flex items-center justify-center">
-          <Image
+          <OptimizedImage
             src={showOriginal ? image.originalPath : image.path}
             alt={`${image.name} - ${showOriginal ? 'Original' : 'Recolored'}`}
             width={1200}
             height={800}
             className="max-w-full max-h-full object-contain"
-            unoptimized
-            onError={() => { return { src: '/file.svg' } }}
+            priority={true}
+            sizes="90vw"
           />
         </div>
         <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 text-white px-3 py-2 rounded-md">
@@ -1477,6 +1477,46 @@ function ImageModal({
           {showOriginal ? '← View Recolored' : 'View Original →'}
         </button>
       </div>
+    </div>
+  );
+}
+
+// Custom Image component with better error handling and loading optimization
+function OptimizedImage({ src, alt, width, height, className, priority = false, sizes = "100vw" }: {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  className?: string;
+  priority?: boolean;
+  sizes?: string;
+}) {
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(true);
+  
+  return (
+    <div className={`relative ${className} overflow-hidden ${loading ? 'bg-gray-100 animate-pulse' : ''}`}>
+      {!error ? (
+        <Image
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          className={`${className} ${loading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
+          priority={priority}
+          sizes={sizes}
+          onLoadingComplete={() => setLoading(false)}
+          onError={() => {
+            setError(true);
+            setLoading(false);
+            return { src: '/file.svg' };
+          }}
+        />
+      ) : (
+        <div className="w-full h-full flex items-center justify-center bg-gray-100">
+          <div className="text-gray-400 text-sm">Image not available</div>
+        </div>
+      )}
     </div>
   );
 }
@@ -1613,14 +1653,13 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                   >
                     {/* Recolored Image - Base Layer */}
                     <div className="relative">
-                      <Image
+                      <OptimizedImage
                         src={image.path}
                         alt={`${image.name} - ${activePalette.name}`}
                         width={400}
                         height={256}
                         className="w-full h-64 object-cover"
-                        unoptimized
-                        onError={() => { return { src: '/file.svg' } }}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       />
                     </div>
 
@@ -1629,14 +1668,13 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                         hoveredImage === `${activeTab}-${index}` ? "opacity-100" : "opacity-0"
                       }`}
                     >
-                      <Image
+                      <OptimizedImage
                         src={image.originalPath}
                         alt={`${image.name} - Original`}
                         width={400}
                         height={256}
                         className="w-full h-64 object-cover"
-                        unoptimized
-                        onError={() => { return { src: '/file.svg' } }}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       />
                       <div className="absolute top-2 left-2 bg-black bg-opacity-75 text-white text-xs px-2 py-1 rounded">
                         Original
