@@ -83,11 +83,7 @@ const paletteImages: Record<string, ProductImage[]> = {
       path: "/recolored_images/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK_simple_neutrals.png",
       originalPath: "/original_images/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK.jpg"
     },
-    { 
-      name: "Renee-Ether", 
-      path: "/recolored_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK_simple_neutrals.png",
-      originalPath: "/original_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK.jpg"
-    },
+ 
     { 
       name: "Marshalls Diamond Blooms Green-Multi", 
       path: "/recolored_images/Ecom_Marshalls_Diamond_Blooms_Green-Multi_3pcs_Quilts_PO_3624_Koh_20241112_2_OK/Ecom_Marshalls_Diamond_Blooms_Green-Multi_3pcs_Quilts_PO_3624_Koh_20241112_2_OK_simple_neutrals.png",
@@ -375,11 +371,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     path: "/recolored_images/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK_enriched_classics.png",
     originalPath: "/original_images/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK.jpg"
   },
-  { 
-    name: "Patched Jacobean Terra-Cotta", 
-    path: "/recolored_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK_enriched_classics.png",
-    originalPath: "/original_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK.jpg"
-  },
+
   { 
     name: "Rayna Antique-White", 
     path: "/recolored_images/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK_enriched_classics.png",
@@ -644,11 +636,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     path: "/recolored_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK_bold_beautility.png",
     originalPath: "/original_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK.jpg"
   },
-  { 
-    name: "Polly Daisy Silver-Pink", 
-    path: "/recolored_images/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK_bold_beautility.png",
-    originalPath: "/original_images/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK.jpg"
-  },
+  
   { 
     name: "Marshalls Floral Brocade-Blush Quilts", 
     path: "/recolored_images/Ecom_Marshalls_Floral_Brocade-Blush_3pcs_Quilts_PO_3624_Koh_20240115_OK/Ecom_Marshalls_Floral_Brocade-Blush_3pcs_Quilts_PO_3624_Koh_20240115_OK_bold_beautility.png",
@@ -719,11 +707,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     path: "/recolored_images/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK_bold_beautility.png",
     originalPath: "/original_images/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK.jpg"
   },
-  { 
-    name: "Canada Heart Crinkle-Blush", 
-    path: "/recolored_images/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK_bold_beautility.png",
-    originalPath: "/original_images/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK.jpg"
-  },
+ 
   { 
     name: "Cali Paisley-Rain", 
     path: "/recolored_images/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK_bold_beautility.png",
@@ -829,11 +813,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     path: "/recolored_images/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK_bold_beautility.png",
     originalPath: "/original_images/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK.jpg"
   },
-  { 
-    name: "Cali Paisley-Sage", 
-    path: "/recolored_images/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK_bold_beautility.png",
-    originalPath: "/original_images/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK.jpg"
-  },
+ 
   { 
     name: "Sadie Scallop-Salmon", 
     path: "/recolored_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129_bold_beautility.png",
@@ -921,11 +901,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     path: "/recolored_images/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK_dissolving_pastels.png",
     originalPath: "/original_images/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK.jpg"
   },
-  { 
-    name: "Canada Heart Crinkle-Blush", 
-    path: "/recolored_images/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK_dissolving_pastels.png",
-    originalPath: "/original_images/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK.jpg"
-  },
+ 
   { 
     name: "Cali Paisley-Rain", 
     path: "/recolored_images/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK_dissolving_pastels.png",
@@ -1035,12 +1011,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     name: "Cali Paisley-Sage", 
     path: "/recolored_images/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK_dissolving_pastels.png",
     originalPath: "/original_images/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK.jpg"
-  },
-  { 
-    name: "Sadie Scallop-Salmon", 
-    path: "/recolored_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129_dissolving_pastels.png",
-    originalPath: "/original_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129.jpg"
-  },
+  } 
   
 ],"Dream State": [
   { 
@@ -1133,11 +1104,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     path: "/recolored_images/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK_dream_state.png",
     originalPath: "/original_images/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK.jpg"
   },
-  { 
-    name: "Checker Club with Tiger Soft-White", 
-    path: "/recolored_images/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK_dream_state.png",
-    originalPath: "/original_images/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK.jpg"
-  },
+ 
   { 
     name: "Butterfly Damask Halogen-Blue", 
     path: "/recolored_images/HG_Butterfly_Damask_Halogen-Blue_3pcs_PO_3551_ZD_20240111_OK/HG_Butterfly_Damask_Halogen-Blue_3pcs_PO_3551_ZD_20240111_OK_dream_state.png",
@@ -1167,12 +1134,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     name: "Ariel Jacobean Window Valance", 
     path: "/recolored_images/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK_dream_state.png",
     originalPath: "/original_images/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK.jpg"
-  },
-  { 
-    name: "Masie Block Floral scalloped edge-Soft Ether Green", 
-    path: "/recolored_images/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK_dream_state.png",
-    originalPath: "/original_images/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK.jpg"
-  },
+  }, 
   { 
     name: "Amelia Eyelet White-Skayway", 
     path: "/recolored_images/HG_Amelia_Eyelet_White-Skayway_6pcs_PO_3550_YT_20240117_1_OK/HG_Amelia_Eyelet_White-Skayway_6pcs_PO_3550_YT_20240117_1_OK_dream_state.png",
@@ -1183,11 +1145,7 @@ const paletteImages: Record<string, ProductImage[]> = {
     path: "/recolored_images/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK_dream_state.png",
     originalPath: "/original_images/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK.jpg"
   },
-  { 
-    name: "Patched Jacobean Terra-Cotta", 
-    path: "/recolored_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK_dream_state.png",
-    originalPath: "/original_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK.jpg"
-  },
+ 
   { 
     name: "Rayna Antique-White", 
     path: "/recolored_images/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK_dream_state.png",
@@ -1391,11 +1349,6 @@ const paletteImages: Record<string, ProductImage[]> = {
     originalPath: "/original_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK.jpg"
   },
   { 
-    name: "Rayna Antique-White", 
-    path: "/recolored_images/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK_meta-morphosis.png",
-    originalPath: "/original_images/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK.jpg"
-  },
-  { 
     name: "Marshalls Bloom Capsule Bright-Multi", 
     path: "/recolored_images/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK_meta-morphosis.png",
     originalPath: "/original_images/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK.jpg"
@@ -1552,71 +1505,23 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
         {/* Content Area with Product Images */}
         {activePalette && (
           <div className="flex-1 space-y-6">
-            <div
-              className="flex items-center justify-between p-4 rounded-lg"
-              style={{
-                background: "linear-gradient(to bottom, #ffffff, #f5f5f5)",
-                boxShadow: "0 2px 4px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.9)",
-                border: "1px solid rgba(0,0,0,0.1)",
-              }}
-            >
-              <div>
-                <h2 className="text-2xl font-semibold" style={{ textShadow: "0 1px 0 rgba(255,255,255,0.9)" }}>
-                  {activePalette.name}
-                </h2>
-                <p className="text-gray-600 text-sm mt-1">
-                  {activeImages.length} products available in this palette
-                </p>
-              </div>
-              <span
-                className="text-sm px-3 py-1 rounded-full"
-                style={{
-                  background: "linear-gradient(to bottom, #f0f0f0, #e0e0e0)",
-                  boxShadow: "inset 0 1px 0 rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.1)",
-                  border: "1px solid rgba(0,0,0,0.1)",
-                  color: "#666",
-                }}
-              >
-                Page {activePalette.source_page}
-              </span>
-            </div>
 
-            {/* Color Palette Preview with 3D effect */}
-            <div
-              className="rounded-lg overflow-hidden p-2"
-              style={{
-                background: "#e0e0e0",
-                boxShadow: "inset 0 2px 5px rgba(0,0,0,0.2)",
-              }}
-            >
-              <div className="flex h-16 rounded-md overflow-hidden">
-                {activePalette.colors.map((color) => (
-                  <div
-                    key={`preview-${activePalette.name}-${color.swatch_id}`}
-                    className="h-full cursor-pointer transition-all hover:scale-y-110"
-                    style={{
-                      backgroundColor: color.hex,
-                      width: `${(color.proportion_units / activePalette.total_proportion_units) * 100}%`,
-                      boxShadow: "inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1)",
-                    }}
-                    onClick={() => handleColorClick(color)}
-                    title={color.name}
-                  />
-                ))}
-              </div>
-            </div>
+
+
 
             {/* Product Images Gallery */}
-            <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-gray-800">Products in {activePalette.name}</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0 mx-0">
+            <div className="space-y-4 mx-0 px-0 w-full">
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0 mx-0 px-0 w-full">
                 {activeImages.map((image, index) => (
                   <div
                     key={`${activeTab}-${index}`}
-                    className="relative overflow-hidden cursor-pointer transition-transform hover:scale-[1.02] group m-0 p-0"
+                    className="relative overflow-hidden cursor-pointer transition-transform hover:scale-[1.02] group m-0 p-0 border-0"
                     style={{
                       borderRadius: "0",
                       boxShadow: "none",
+                      margin: 0,
+                      padding: 0
                     }}
                     onMouseEnter={() => setHoveredImage(`${activeTab}-${index}`)}
                     onMouseLeave={() => setHoveredImage(null)}
@@ -1630,11 +1535,7 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                         height={256}
                         className="w-full h-64 object-cover"
                         unoptimized
-                        onError={() => {
-                          return true; // This continues to show the broken image
-                        }}
-                        placeholder="blur"
-                        blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PC9zdmc+"
+                        onError={() => { return { src: '/file.svg' } }}
                       />
                     </div>
 
@@ -1650,11 +1551,7 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                         height={256}
                         className="w-full h-64 object-cover"
                         unoptimized
-                        onError={() => {
-                          return true; // This continues to show the broken image
-                        }}
-                        placeholder="blur"
-                        blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PC9zdmc+"
+                        onError={() => { return { src: '/file.svg' } }}
                       />
                       <div className="absolute top-2 left-2 bg-black bg-opacity-75 text-white text-xs px-2 py-1 rounded">
                         Original
