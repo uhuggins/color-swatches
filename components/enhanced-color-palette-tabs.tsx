@@ -1,8 +1,8 @@
 "use client"
 
 import type React from "react"
-import { useState } from "react"
-import { ChevronRight, Palette, Eye } from "lucide-react"
+import { useState, useEffect } from "react"
+import { ChevronRight, Palette, Eye, X, ArrowLeft, ArrowRight } from "lucide-react"
 import Image from "next/image"
  
 
@@ -1407,13 +1407,96 @@ interface ColorPaletteTabsProps {
   palettes: Palette[]
 }
 
+// Modal component for full-screen image viewing
+function ImageModal({ 
+  image, 
+  isOpen, 
+  onClose, 
+  showOriginal, 
+  setShowOriginal 
+}: { 
+  image: ProductImage | null, 
+  isOpen: boolean, 
+  onClose: () => void, 
+  showOriginal: boolean,
+  setShowOriginal: (show: boolean) => void 
+}) {
+  if (!isOpen || !image) return null;
+  
+  return (
+    <div 
+      className="fixed inset-0 bg-black bg-opacity-90 z-50 flex justify-center items-center p-4"
+      onClick={onClose} // Close when clicking the background
+    >
+      <div 
+        className="relative w-full max-w-5xl max-h-[90vh] overflow-hidden"
+        onClick={(e) => e.stopPropagation()} // Prevent closing when clicking the image
+      >
+        <Image
+          src={showOriginal ? image.originalPath : image.path}
+          alt={`${image.name} - ${showOriginal ? 'Original' : 'Recolored'}`}
+          width={1200}
+          height={800}
+          className="w-full h-auto object-contain"
+          unoptimized
+          onError={() => { return { src: '/file.svg' } }}
+        />
+        <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 text-white px-3 py-2 rounded-md">
+          {image.name} - {showOriginal ? 'Original' : 'Recolored'}
+        </div>
+      </div>
+      
+      <div 
+        className="absolute top-4 right-4 flex gap-4"
+        onClick={(e) => e.stopPropagation()} // Prevent closing when clicking controls
+      >
+        <button 
+          onClick={() => setShowOriginal(!showOriginal)}
+          className="p-2 bg-white bg-opacity-20 rounded-full text-white hover:bg-opacity-30 transition-all"
+        >
+          {showOriginal ? 'Show Recolored' : 'Show Original'}
+        </button>
+        <button 
+          onClick={onClose}
+          className="p-2 bg-white bg-opacity-20 rounded-full text-white hover:bg-opacity-30 transition-all"
+        >
+          <X size={24} />
+        </button>
+      </div>
+      
+      <div 
+        className="absolute bottom-4 left-0 right-0 flex justify-center gap-4"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button 
+          onClick={() => setShowOriginal(!showOriginal)}
+          className="py-2 px-4 bg-white bg-opacity-20 rounded-md text-white hover:bg-opacity-30 transition-all"
+        >
+          {showOriginal ? '← View Recolored' : 'View Original →'}
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsProps) {
   const [activeTab, setActiveTab] = useState(palettes[0]?.name || "")
-
   const [hoveredImage, setHoveredImage] = useState<string | null>(null)
+  const [modalImage, setModalImage] = useState<ProductImage | null>(null)
+  const [showModal, setShowModal] = useState(false)
+  const [showOriginal, setShowOriginal] = useState(false)
 
-
-
+  // Close modal on escape key
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setShowModal(false);
+      }
+    };
+    
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, []);
 
   // Find the active palette
   const activePalette = palettes.find((palette) => palette.name === activeTab) || palettes[0]
@@ -1518,6 +1601,11 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                       margin: 0,
                       padding: 0
                     }}
+                    onClick={() => {
+                      setModalImage(image);
+                      setShowModal(true);
+                      setShowOriginal(false);
+                    }}
                     onMouseEnter={() => setHoveredImage(`${activeTab}-${index}`)}
                     onMouseLeave={() => setHoveredImage(null)}
                   >
@@ -1551,7 +1639,15 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                       <div className="absolute top-2 left-2 bg-black bg-opacity-75 text-white text-xs px-2 py-1 rounded">
                         Original
                       </div>
-                      <div className="absolute top-2 right-2 bg-black bg-opacity-75 text-white p-1 rounded">
+                      <div 
+                        className="absolute top-2 right-2 bg-black bg-opacity-75 text-white p-1 rounded cursor-pointer hover:bg-opacity-90 transition-all"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setModalImage(image);
+                          setShowModal(true);
+                          setShowOriginal(true);
+                        }}
+                      >
                         <Eye className="h-3 w-3" />
                       </div>
                     </div>
@@ -1576,6 +1672,14 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
         )}
       </div>
 
+      {/* Full-screen image modal */}
+      <ImageModal
+        image={modalImage}
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        showOriginal={showOriginal}
+        setShowOriginal={setShowOriginal}
+      />
     </>
   )
 }
