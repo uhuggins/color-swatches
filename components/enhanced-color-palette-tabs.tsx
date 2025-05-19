@@ -1447,6 +1447,7 @@ const paletteImages: Record<string, ProductImage[]> = {
 ],
 
 
+
 }
 interface ColorPaletteTabsProps {
   palettes: Palette[]
