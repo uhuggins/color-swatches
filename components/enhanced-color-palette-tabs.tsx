@@ -2,7 +2,8 @@
 
 import type React from "react"
 import { useState } from "react"
-import { Info, ChevronRight, Palette, Eye } from "lucide-react"
+import { ChevronRight, Palette, Eye } from "lucide-react"
+import Image from "next/image"
 import ColorDetailView from "./color-detail-view"
 
 interface Color {
@@ -1608,11 +1609,11 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
             {/* Product Images Gallery */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-gray-800">Products in {activePalette.name}</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0 mx-0">
                 {activeImages.map((image, index) => (
                   <div
                     key={`${activeTab}-${index}`}
-                    className="relative overflow-hidden cursor-pointer transition-transform hover:scale-[1.02] group"
+                    className="relative overflow-hidden cursor-pointer transition-transform hover:scale-[1.02] group m-0 p-0"
                     style={{
                       borderRadius: "0",
                       boxShadow: "none",
@@ -1622,14 +1623,18 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                   >
                     {/* Recolored Image - Base Layer */}
                     <div className="relative">
-                      <img
+                      <Image
                         src={image.path}
                         alt={`${image.name} - ${activePalette.name}`}
+                        width={400}
+                        height={256}
                         className="w-full h-64 object-cover"
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement;
-                          target.src = '/file.svg';
+                        unoptimized
+                        onError={() => {
+                          return true; // This continues to show the broken image
                         }}
+                        placeholder="blur"
+                        blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PC9zdmc+"
                       />
                     </div>
 
@@ -1638,14 +1643,18 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                         hoveredImage === `${activeTab}-${index}` ? "opacity-100" : "opacity-0"
                       }`}
                     >
-                      <img
+                      <Image
                         src={image.originalPath}
                         alt={`${image.name} - Original`}
+                        width={400}
+                        height={256}
                         className="w-full h-64 object-cover"
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement;
-                          target.src = '/file.svg';
+                        unoptimized
+                        onError={() => {
+                          return true; // This continues to show the broken image
                         }}
+                        placeholder="blur"
+                        blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PC9zdmc+"
                       />
                       <div className="absolute top-2 left-2 bg-black bg-opacity-75 text-white text-xs px-2 py-1 rounded">
                         Original
