@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { useState, useEffect } from "react"
-import { ChevronRight, Palette, Eye, X, ArrowLeft, ArrowRight } from "lucide-react"
+import { ChevronRight, Palette, Eye, X } from "lucide-react"
 import Image from "next/image"
  
 
@@ -1429,18 +1429,20 @@ function ImageModal({
       onClick={onClose} // Close when clicking the background
     >
       <div 
-        className="relative w-full max-w-5xl max-h-[90vh] overflow-hidden"
+        className="relative w-full max-w-5xl h-[80vh] overflow-auto"
         onClick={(e) => e.stopPropagation()} // Prevent closing when clicking the image
       >
-        <Image
-          src={showOriginal ? image.originalPath : image.path}
-          alt={`${image.name} - ${showOriginal ? 'Original' : 'Recolored'}`}
-          width={1200}
-          height={800}
-          className="w-full h-auto object-contain"
-          unoptimized
-          onError={() => { return { src: '/file.svg' } }}
-        />
+        <div className="h-full flex items-center justify-center">
+          <Image
+            src={showOriginal ? image.originalPath : image.path}
+            alt={`${image.name} - ${showOriginal ? 'Original' : 'Recolored'}`}
+            width={1200}
+            height={800}
+            className="max-w-full max-h-full object-contain"
+            unoptimized
+            onError={() => { return { src: '/file.svg' } }}
+          />
+        </div>
         <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 text-white px-3 py-2 rounded-md">
           {image.name} - {showOriginal ? 'Original' : 'Recolored'}
         </div>
@@ -1452,13 +1454,13 @@ function ImageModal({
       >
         <button 
           onClick={() => setShowOriginal(!showOriginal)}
-          className="p-2 bg-white bg-opacity-20 rounded-full text-white hover:bg-opacity-30 transition-all"
+          className="p-2 bg-blue-500 rounded-full text-white hover:bg-blue-600 transition-all flex items-center gap-1"
         >
           {showOriginal ? 'Show Recolored' : 'Show Original'}
         </button>
         <button 
           onClick={onClose}
-          className="p-2 bg-white bg-opacity-20 rounded-full text-white hover:bg-opacity-30 transition-all"
+          className="p-2 bg-red-500 rounded-full text-white hover:bg-red-600 transition-all"
         >
           <X size={24} />
         </button>
@@ -1470,7 +1472,7 @@ function ImageModal({
       >
         <button 
           onClick={() => setShowOriginal(!showOriginal)}
-          className="py-2 px-4 bg-white bg-opacity-20 rounded-md text-white hover:bg-opacity-30 transition-all"
+          className="py-2 px-4 bg-purple-600 rounded-md text-white hover:bg-purple-700 transition-all font-medium shadow-lg"
         >
           {showOriginal ? '← View Recolored' : 'View Original →'}
         </button>
