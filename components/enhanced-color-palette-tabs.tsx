@@ -286,7 +286,7 @@ const paletteImages: Record<string, ProductImage[]> = {
   },
   { 
     name: "Renee-Ether", 
-    path: "/recolored_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK_enriched_classics.png",
+    path:'/recolored_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK_enriched_classics.png',
     originalPath: "/original_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK.jpg"
   },
   { 
@@ -1040,6 +1040,410 @@ const paletteImages: Record<string, ProductImage[]> = {
     path: "/recolored_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129_dissolving_pastels.png",
     originalPath: "/original_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129.jpg"
   },
+  
+],"Dream State": [
+  { 
+    name: "Sophia Toile Blue-Pearl Quilts", 
+    path: "/recolored_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK_dream_state.png",
+    originalPath: "/original_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK.jpg"
+  },
+  { 
+    name: "Polly Daisy Silver-Pink", 
+    path: "/recolored_images/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK_dream_state.png",
+    originalPath: "/original_images/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK.jpg"
+  },
+  { 
+    name: "Marshalls Floral Brocade-Blush Quilts", 
+    path: "/recolored_images/Ecom_Marshalls_Floral_Brocade-Blush_3pcs_Quilts_PO_3624_Koh_20240115_OK/Ecom_Marshalls_Floral_Brocade-Blush_3pcs_Quilts_PO_3624_Koh_20240115_OK_dream_state.png",
+    originalPath: "/original_images/Ecom_Marshalls_Floral_Brocade-Blush_3pcs_Quilts_PO_3624_Koh_20240115_OK.jpg"
+  },
+  { 
+    name: "Nikita Floral-Butter Quilts", 
+    path: "/recolored_images/HG_Nikita_Floral-Butter_3pcs_Quilts_PO_3550_YT_20240123_2_OK/HG_Nikita_Floral-Butter_3pcs_Quilts_PO_3550_YT_20240123_2_OK_dream_state.png",
+    originalPath: "/original_images/HG_Nikita_Floral-Butter_3pcs_Quilts_PO_3550_YT_20240123_2_OK.jpg"
+  },
+  { 
+    name: "Masie Block Floral Scallop Edge-Ballet", 
+    path: "/recolored_images/HG_Masie_Block_Floral_Scallop_Edge-Ballet_3pcs_Quilts_PO_3690_Koh_20240122_OK/HG_Masie_Block_Floral_Scallop_Edge-Ballet_3pcs_Quilts_PO_3690_Koh_20240122_OK_dream_state.png",
+    originalPath: "/original_images/HG_Masie_Block_Floral_Scallop_Edge-Ballet_3pcs_Quilts_PO_3690_Koh_20240122_OK.jpg"
+  },
+  { 
+    name: "Newport Seersucker with Scallop-Blue", 
+    path: "/recolored_images/HG_Newport_Seersucker_with_Scallop-Blue_3pcs_PO_3550_YT_20240118_1_OK/HG_Newport_Seersucker_with_Scallop-Blue_3pcs_PO_3550_YT_20240118_1_OK_dream_state.png",
+    originalPath: "/original_images/HG_Newport_Seersucker_with_Scallop-Blue_3pcs_PO_3550_YT_20240118_1_OK.jpg"
+  },
+  { 
+    name: "Hotel Scallop-Pool", 
+    path: "/recolored_images/HG_Hotel_Scallop-Pool_6pcs_PO_3693_Koh_20240118_OK/HG_Hotel_Scallop-Pool_6pcs_PO_3693_Koh_20240118_OK_dream_state.png",
+    originalPath: "/original_images/HG_Hotel_Scallop-Pool_6pcs_PO_3693_Koh_20240118_OK.jpg"
+  },
+  { 
+    name: "5 Line midnight on white Shower Curtain", 
+    path: "/recolored_images/5_Line_midnight_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK/5_Line_midnight_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK_dream_state.png",
+    originalPath: "/original_images/5_Line_midnight_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK.jpg"
+  },
+  { 
+    name: "Sophia Toile Blue-Pearl Duvet Set", 
+    path: "/recolored_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Duvet_set_PO_3550_YT_20240125_OK/HG_Sophia_Toile_Blue-Pearl_3pcs_Duvet_set_PO_3550_YT_20240125_OK_dream_state.png",
+    originalPath: "/original_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Duvet_set_PO_3550_YT_20240125_OK.jpg"
+  },
+  { 
+    name: "Cali Paisley-Shell", 
+    path: "/recolored_images/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK_dream_state.png",
+    originalPath: "/original_images/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK.jpg"
+  },
+  { 
+    name: "Renee-Ether", 
+    path: "/recolored_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK_dream_state.png",
+    originalPath: "/original_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK.jpg"
+  },
+  { 
+    name: "Marshalls Diamond Blooms Green-Multi", 
+    path: "/recolored_images/Ecom_Marshalls_Diamond_Blooms_Green-Multi_3pcs_Quilts_PO_3624_Koh_20241112_2_OK/Ecom_Marshalls_Diamond_Blooms_Green-Multi_3pcs_Quilts_PO_3624_Koh_20241112_2_OK_dream_state.png",
+    originalPath: "/original_images/Ecom_Marshalls_Diamond_Blooms_Green-Multi_3pcs_Quilts_PO_3624_Koh_20241112_2_OK.jpg"
+  },
+  { 
+    name: "5 Line fuchsia on white Shower Curtain", 
+    path: "/recolored_images/5_Line_fuchsia_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK/5_Line_fuchsia_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK_dream_state.png",
+    originalPath: "/original_images/5_Line_fuchsia_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK.jpg"
+  },
+  { 
+    name: "Mashalls Spring Break Floral Engineered-Bright Blue", 
+    path: "/recolored_images/Ecom_Mashalls_Spring_Break_Floral_Engineered-_Bright_Blue_3pcs_Quilts_PO_3624_Koh_20240129_OK/Ecom_Mashalls_Spring_Break_Floral_Engineered-_Bright_Blue_3pcs_Quilts_PO_3624_Koh_20240129_OK_dream_state.png",
+    originalPath: "/original_images/Ecom_Mashalls_Spring_Break_Floral_Engineered-_Bright_Blue_3pcs_Quilts_PO_3624_Koh_20240129_OK.jpg"
+  },
+  { 
+    name: "Shroom Daisy Pale-Lavendar", 
+    path: "/recolored_images/HG_Shroom_Daisy_Pale-Lavendar_3pcs_PR_2018_ZD_20240111_OK/HG_Shroom_Daisy_Pale-Lavendar_3pcs_PR_2018_ZD_20240111_OK_dream_state.png",
+    originalPath: "/original_images/HG_Shroom_Daisy_Pale-Lavendar_3pcs_PR_2018_ZD_20240111_OK.jpg"
+  },
+  { 
+    name: "Adina Jacobean Bright-Multi Shower Curtain", 
+    path: "/recolored_images/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK_dream_state.png",
+    originalPath: "/original_images/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK.jpg"
+  },
+  { 
+    name: "Canada Heart Crinkle-Blush", 
+    path: "/recolored_images/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK_dream_state.png",
+    originalPath: "/original_images/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK.jpg"
+  },
+  { 
+    name: "Cali Paisley-Rain", 
+    path: "/recolored_images/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK_dream_state.png",
+    originalPath: "/original_images/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK.jpg"
+  },
+  { 
+    name: "Checker Club with Tiger Soft-White", 
+    path: "/recolored_images/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK_dream_state.png",
+    originalPath: "/original_images/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK.jpg"
+  },
+  { 
+    name: "Butterfly Damask Halogen-Blue", 
+    path: "/recolored_images/HG_Butterfly_Damask_Halogen-Blue_3pcs_PO_3551_ZD_20240111_OK/HG_Butterfly_Damask_Halogen-Blue_3pcs_PO_3551_ZD_20240111_OK_dream_state.png",
+    originalPath: "/original_images/HG_Butterfly_Damask_Halogen-Blue_3pcs_PO_3551_ZD_20240111_OK.jpg"
+  },
+  { 
+    name: "Deval Floral Jacobean Blue-Green-Yellow Shower Curtain", 
+    path: "/recolored_images/Deval_Floral_Jacobean_Blue-Green-Yellow_Shower_Curtain_PO_3654_Koh_20240129_1_OK/Deval_Floral_Jacobean_Blue-Green-Yellow_Shower_Curtain_PO_3654_Koh_20240129_1_OK_dream_state.png",
+    originalPath: "/original_images/Deval_Floral_Jacobean_Blue-Green-Yellow_Shower_Curtain_PO_3654_Koh_20240129_1_OK.jpg"
+  },
+  { 
+    name: "Pencil Stripe-Seaglass Duvet Set", 
+    path: "/recolored_images/HG_Pencil_Stripe-Seaglass_3pcs_Duvet_set_PO_3620_YT_20240130_2_OK/HG_Pencil_Stripe-Seaglass_3pcs_Duvet_set_PO_3620_YT_20240130_2_OK_dream_state.png",
+    originalPath: "/original_images/HG_Pencil_Stripe-Seaglass_3pcs_Duvet_set_PO_3620_YT_20240130_2_OK.jpg"
+  },
+  { 
+    name: "Nikita Floral-Butter Duvet Set", 
+    path: "/recolored_images/HG_Nikita_Floral-Butter_3pcs_Duvet_set_PO_3550_YT_20240122_1_OK/HG_Nikita_Floral-Butter_3pcs_Duvet_set_PO_3550_YT_20240122_1_OK_dream_state.png",
+    originalPath: "/original_images/HG_Nikita_Floral-Butter_3pcs_Duvet_set_PO_3550_YT_20240122_1_OK.jpg"
+  },
+  { 
+    name: "European Scallop Hotel-White", 
+    path: "/recolored_images/HG_European_Scallop_Hotel-White_5pc_Bring_in_Koh_20231229_OK/HG_European_Scallop_Hotel-White_5pc_Bring_in_Koh_20231229_OK_dream_state.png",
+    originalPath: "/original_images/HG_European_Scallop_Hotel-White_5pc_Bring_in_Koh_20231229_OK.jpg"
+  },
+  { 
+    name: "Ariel Jacobean Window Valance", 
+    path: "/recolored_images/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK_dream_state.png",
+    originalPath: "/original_images/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK.jpg"
+  },
+  { 
+    name: "Masie Block Floral scalloped edge-Soft Ether Green", 
+    path: "/recolored_images/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK_dream_state.png",
+    originalPath: "/original_images/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK.jpg"
+  },
+  { 
+    name: "Amelia Eyelet White-Skayway", 
+    path: "/recolored_images/HG_Amelia_Eyelet_White-Skayway_6pcs_PO_3550_YT_20240117_1_OK/HG_Amelia_Eyelet_White-Skayway_6pcs_PO_3550_YT_20240117_1_OK_dream_state.png",
+    originalPath: "/original_images/HG_Amelia_Eyelet_White-Skayway_6pcs_PO_3550_YT_20240117_1_OK.jpg"
+  },
+  { 
+    name: "Marshalls Twilight Tiger Jungle Blue-Multi", 
+    path: "/recolored_images/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK_dream_state.png",
+    originalPath: "/original_images/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK.jpg"
+  },
+  { 
+    name: "Patched Jacobean Terra-Cotta", 
+    path: "/recolored_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK_dream_state.png",
+    originalPath: "/original_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK.jpg"
+  },
+  { 
+    name: "Rayna Antique-White", 
+    path: "/recolored_images/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK_dream_state.png",
+    originalPath: "/original_images/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK.jpg"
+  },
+  { 
+    name: "Marshalls Bloom Capsule Bright-Multi", 
+    path: "/recolored_images/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK_dream_state.png",
+    originalPath: "/original_images/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK.jpg"
+  },
+  { 
+    name: "Glacier Floral-Sage", 
+    path: "/recolored_images/HG_Glacier_Floral-Sage_10pcs_PO_3550_YT_20240115_1_OK/HG_Glacier_Floral-Sage_10pcs_PO_3550_YT_20240115_1_OK_dream_state.png",
+    originalPath: "/original_images/HG_Glacier_Floral-Sage_10pcs_PO_3550_YT_20240115_1_OK.jpg"
+  },
+  { 
+    name: "Diamond Blooms-Sage", 
+    path: "/recolored_images/HG_Diamond_Blooms-Sage_3pcs_Quilts_PO_3621_Koh_20240112_1_OK/HG_Diamond_Blooms-Sage_3pcs_Quilts_PO_3621_Koh_20240112_1_OK_dream_state.png",
+    originalPath: "/original_images/HG_Diamond_Blooms-Sage_3pcs_Quilts_PO_3621_Koh_20240112_1_OK.jpg"
+  },
+  { 
+    name: "Senna Latte Soft-Linen", 
+    path: "/recolored_images/HG_Senna_Latte_Soft-Linen_3pcs_PO_3550_YT_20240125_1_OK/HG_Senna_Latte_Soft-Linen_3pcs_PO_3550_YT_20240125_1_OK_dream_state.png",
+    originalPath: "/original_images/HG_Senna_Latte_Soft-Linen_3pcs_PO_3550_YT_20240125_1_OK.jpg"
+  },
+  { 
+    name: "English Manor Coral-Blue Shower Curtain", 
+    path: "/recolored_images/English_Manor_Coral-Blue_Shower_Curtain_PO_3654_Koh_20240131_OK/English_Manor_Coral-Blue_Shower_Curtain_PO_3654_Koh_20240131_OK_dream_state.png",
+    originalPath: "/original_images/English_Manor_Coral-Blue_Shower_Curtain_PO_3654_Koh_20240131_OK.jpg"
+  },
+  { 
+    name: "Kiara Texture-White Shower Curtain", 
+    path: "/recolored_images/Kiara_Texture-White_Shower_Curtain_PO_3655_YT_20240129_OK/Kiara_Texture-White_Shower_Curtain_PO_3655_YT_20240129_OK_dream_state.png",
+    originalPath: "/original_images/Kiara_Texture-White_Shower_Curtain_PO_3655_YT_20240129_OK.jpg"
+  },
+  { 
+    name: "Kyra Rain-Rain", 
+    path: "/recolored_images/HG_Kyra_Rain-Rain_10pcs_PO_3552_BW_20240117_1_OK/HG_Kyra_Rain-Rain_10pcs_PO_3552_BW_20240117_1_OK_dream_state.png",
+    originalPath: "/original_images/HG_Kyra_Rain-Rain_10pcs_PO_3552_BW_20240117_1_OK.jpg"
+  },
+  { 
+    name: "Ariel Jacobean Window Panel", 
+    path: "/recolored_images/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK_dream_state.png",
+    originalPath: "/original_images/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK.jpg"
+  },
+  { 
+    name: "Cali Paisley-Sage", 
+    path: "/recolored_images/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK_dream_state.png",
+    originalPath: "/original_images/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK.jpg"
+  },
+  { 
+    name: "Sadie Scallop-Salmon", 
+    path: "/recolored_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129_dream_state.png",
+    originalPath: "/original_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129.jpg"
+  },
+],
+"Meta-Morphosis": [
+  { 
+    name: "Sophia Toile Blue-Pearl Quilts", 
+    path: "/recolored_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Quilts_PO_3550_YT_20240125_OK.jpg"
+  },
+  { 
+    name: "Polly Daisy Silver-Pink", 
+    path: "/recolored_images/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Polly_Daisy_Silver-Pink_3pcs_PO_3551_ZD_20240111_OK.jpg"
+  },
+  { 
+    name: "Marshalls Floral Brocade-Blush Quilts", 
+    path: "/recolored_images/Ecom_Marshalls_Floral_Brocade-Blush_3pcs_Quilts_PO_3624_Koh_20240115_OK/Ecom_Marshalls_Floral_Brocade-Blush_3pcs_Quilts_PO_3624_Koh_20240115_OK_meta-morphosis.png",
+    originalPath: "/original_images/Ecom_Marshalls_Floral_Brocade-Blush_3pcs_Quilts_PO_3624_Koh_20240115_OK.jpg"
+  },
+  { 
+    name: "Nikita Floral-Butter Quilts", 
+    path: "/recolored_images/HG_Nikita_Floral-Butter_3pcs_Quilts_PO_3550_YT_20240123_2_OK/HG_Nikita_Floral-Butter_3pcs_Quilts_PO_3550_YT_20240123_2_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Nikita_Floral-Butter_3pcs_Quilts_PO_3550_YT_20240123_2_OK.jpg"
+  },
+  { 
+    name: "Masie Block Floral Scallop Edge-Ballet", 
+    path: "/recolored_images/HG_Masie_Block_Floral_Scallop_Edge-Ballet_3pcs_Quilts_PO_3690_Koh_20240122_OK/HG_Masie_Block_Floral_Scallop_Edge-Ballet_3pcs_Quilts_PO_3690_Koh_20240122_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Masie_Block_Floral_Scallop_Edge-Ballet_3pcs_Quilts_PO_3690_Koh_20240122_OK.jpg"
+  },
+  { 
+    name: "Newport Seersucker with Scallop-Blue", 
+    path: "/recolored_images/HG_Newport_Seersucker_with_Scallop-Blue_3pcs_PO_3550_YT_20240118_1_OK/HG_Newport_Seersucker_with_Scallop-Blue_3pcs_PO_3550_YT_20240118_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Newport_Seersucker_with_Scallop-Blue_3pcs_PO_3550_YT_20240118_1_OK.jpg"
+  },
+  { 
+    name: "Hotel Scallop-Pool", 
+    path: "/recolored_images/HG_Hotel_Scallop-Pool_6pcs_PO_3693_Koh_20240118_OK/HG_Hotel_Scallop-Pool_6pcs_PO_3693_Koh_20240118_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Hotel_Scallop-Pool_6pcs_PO_3693_Koh_20240118_OK.jpg"
+  },
+  { 
+    name: "5 Line midnight on white Shower Curtain", 
+    path: "/recolored_images/5_Line_midnight_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK/5_Line_midnight_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK_meta-morphosis.png",
+    originalPath: "/original_images/5_Line_midnight_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK.jpg"
+  },
+  { 
+    name: "Sophia Toile Blue-Pearl Duvet Set", 
+    path: "/recolored_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Duvet_set_PO_3550_YT_20240125_OK/HG_Sophia_Toile_Blue-Pearl_3pcs_Duvet_set_PO_3550_YT_20240125_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Sophia_Toile_Blue-Pearl_3pcs_Duvet_set_PO_3550_YT_20240125_OK.jpg"
+  },
+  { 
+    name: "Cali Paisley-Shell", 
+    path: "/recolored_images/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Cali_Paisley-Shell_6pcs_Po_3621_Koh_20240124_OK.jpg"
+  },
+  { 
+    name: "Renee-Ether", 
+    path: "/recolored_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Renee-Ether_6pcs_PO_3554_Koh_20240104_OK.jpg"
+  },
+  { 
+    name: "Marshalls Diamond Blooms Green-Multi", 
+    path: "/recolored_images/Ecom_Marshalls_Diamond_Blooms_Green-Multi_3pcs_Quilts_PO_3624_Koh_20241112_2_OK/Ecom_Marshalls_Diamond_Blooms_Green-Multi_3pcs_Quilts_PO_3624_Koh_20241112_2_OK_meta-morphosis.png",
+    originalPath: "/original_images/Ecom_Marshalls_Diamond_Blooms_Green-Multi_3pcs_Quilts_PO_3624_Koh_20241112_2_OK.jpg"
+  },
+  { 
+    name: "5 Line fuchsia on white Shower Curtain", 
+    path: "/recolored_images/5_Line_fuchsia_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK/5_Line_fuchsia_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK_meta-morphosis.png",
+    originalPath: "/original_images/5_Line_fuchsia_on_white_Shower_Curtain_PO_3654_Koh_20240131_OK.jpg"
+  },
+  { 
+    name: "Mashalls Spring Break Floral Engineered-Bright Blue", 
+    path: "/recolored_images/Ecom_Mashalls_Spring_Break_Floral_Engineered-_Bright_Blue_3pcs_Quilts_PO_3624_Koh_20240129_OK/Ecom_Mashalls_Spring_Break_Floral_Engineered-_Bright_Blue_3pcs_Quilts_PO_3624_Koh_20240129_OK_meta-morphosis.png",
+    originalPath: "/original_images/Ecom_Mashalls_Spring_Break_Floral_Engineered-_Bright_Blue_3pcs_Quilts_PO_3624_Koh_20240129_OK.jpg"
+  },
+  { 
+    name: "Shroom Daisy Pale-Lavendar", 
+    path: "/recolored_images/HG_Shroom_Daisy_Pale-Lavendar_3pcs_PR_2018_ZD_20240111_OK/HG_Shroom_Daisy_Pale-Lavendar_3pcs_PR_2018_ZD_20240111_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Shroom_Daisy_Pale-Lavendar_3pcs_PR_2018_ZD_20240111_OK.jpg"
+  },
+  { 
+    name: "Adina Jacobean Bright-Multi Shower Curtain", 
+    path: "/recolored_images/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK_meta-morphosis.png",
+    originalPath: "/original_images/Adina_Jacobean_Bright-Multi_Shower_Curtain_PO_3654_Koh_20240126_OK.jpg"
+  },
+  { 
+    name: "Canada Heart Crinkle-Blush", 
+    path: "/recolored_images/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/Canada_Heart_Crinkle-Blush_3pcs_PO_3607_BW_20240118_1_OK.jpg"
+  },
+  { 
+    name: "Cali Paisley-Rain", 
+    path: "/recolored_images/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Cali_Paisley-Rain_6pcs_PO_3621_Koh_20240124_OK.jpg"
+  },
+  { 
+    name: "Checker Club with Tiger Soft-White", 
+    path: "/recolored_images/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Checker_Club_with_Tiger_Soft-White_10pcs_PO_3550_YT_20240122_2_OK.jpg"
+  },
+  { 
+    name: "Butterfly Damask Halogen-Blue", 
+    path: "/recolored_images/HG_Butterfly_Damask_Halogen-Blue_3pcs_PO_3551_ZD_20240111_OK/HG_Butterfly_Damask_Halogen-Blue_3pcs_PO_3551_ZD_20240111_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Butterfly_Damask_Halogen-Blue_3pcs_PO_3551_ZD_20240111_OK.jpg"
+  },
+  { 
+    name: "Deval Floral Jacobean Blue-Green-Yellow Shower Curtain", 
+    path: "/recolored_images/Deval_Floral_Jacobean_Blue-Green-Yellow_Shower_Curtain_PO_3654_Koh_20240129_1_OK/Deval_Floral_Jacobean_Blue-Green-Yellow_Shower_Curtain_PO_3654_Koh_20240129_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/Deval_Floral_Jacobean_Blue-Green-Yellow_Shower_Curtain_PO_3654_Koh_20240129_1_OK.jpg"
+  },
+  { 
+    name: "Pencil Stripe-Seaglass Duvet Set", 
+    path: "/recolored_images/HG_Pencil_Stripe-Seaglass_3pcs_Duvet_set_PO_3620_YT_20240130_2_OK/HG_Pencil_Stripe-Seaglass_3pcs_Duvet_set_PO_3620_YT_20240130_2_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Pencil_Stripe-Seaglass_3pcs_Duvet_set_PO_3620_YT_20240130_2_OK.jpg"
+  },
+  { 
+    name: "Nikita Floral-Butter Duvet Set", 
+    path: "/recolored_images/HG_Nikita_Floral-Butter_3pcs_Duvet_set_PO_3550_YT_20240122_1_OK/HG_Nikita_Floral-Butter_3pcs_Duvet_set_PO_3550_YT_20240122_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Nikita_Floral-Butter_3pcs_Duvet_set_PO_3550_YT_20240122_1_OK.jpg"
+  },
+  { 
+    name: "European Scallop Hotel-White", 
+    path: "/recolored_images/HG_European_Scallop_Hotel-White_5pc_Bring_in_Koh_20231229_OK/HG_European_Scallop_Hotel-White_5pc_Bring_in_Koh_20231229_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_European_Scallop_Hotel-White_5pc_Bring_in_Koh_20231229_OK.jpg"
+  },
+  { 
+    name: "Ariel Jacobean Window Valance", 
+    path: "/recolored_images/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Ariel_Jacobean_Window_Valance_PO_3567_Koh_20240129_OK.jpg"
+  },
+  { 
+    name: "Masie Block Floral scalloped edge-Soft Ether Green", 
+    path: "/recolored_images/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Masie_Block_Floral_scalloped_edge-Soft_Ether_Green_3pcs_Quilts_PO_3693_Koh_20240122_OK.jpg"
+  },
+  { 
+    name: "Amelia Eyelet White-Skayway", 
+    path: "/recolored_images/HG_Amelia_Eyelet_White-Skayway_6pcs_PO_3550_YT_20240117_1_OK/HG_Amelia_Eyelet_White-Skayway_6pcs_PO_3550_YT_20240117_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Amelia_Eyelet_White-Skayway_6pcs_PO_3550_YT_20240117_1_OK.jpg"
+  },
+  { 
+    name: "Marshalls Twilight Tiger Jungle Blue-Multi", 
+    path: "/recolored_images/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK_meta-morphosis.png",
+    originalPath: "/original_images/Ecom_Marshalls_Twilight_Tiger_Jungle_Blue-Multi_3pcs_Quilts_PO_3624_Koh_20240116_3_OK.jpg"
+  },
+  { 
+    name: "Patched Jacobean Terra-Cotta", 
+    path: "/recolored_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Patched_Jacobean_Terra-Cotta_3pcs_Quilts_PO_3621_Koh_20230116_OK.jpg"
+  },
+  { 
+    name: "Rayna Antique-White", 
+    path: "/recolored_images/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Rayna_Antique-White_10pcs_PO_3709_YT_20240130_2_OK.jpg"
+  },
+  { 
+    name: "Marshalls Bloom Capsule Bright-Multi", 
+    path: "/recolored_images/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK_meta-morphosis.png",
+    originalPath: "/original_images/Ecom_Marshalls_Bloom_Capsule_Bright-Multi_3pcs_Quilts_PO_3624_Koh_20240115_3_OK.jpg"
+  },
+  { 
+    name: "Glacier Floral-Sage", 
+    path: "/recolored_images/HG_Glacier_Floral-Sage_10pcs_PO_3550_YT_20240115_1_OK/HG_Glacier_Floral-Sage_10pcs_PO_3550_YT_20240115_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Glacier_Floral-Sage_10pcs_PO_3550_YT_20240115_1_OK.jpg"
+  },
+  { 
+    name: "Diamond Blooms-Sage", 
+    path: "/recolored_images/HG_Diamond_Blooms-Sage_3pcs_Quilts_PO_3621_Koh_20240112_1_OK/HG_Diamond_Blooms-Sage_3pcs_Quilts_PO_3621_Koh_20240112_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Diamond_Blooms-Sage_3pcs_Quilts_PO_3621_Koh_20240112_1_OK.jpg"
+  },
+  { 
+    name: "Senna Latte Soft-Linen", 
+    path: "/recolored_images/HG_Senna_Latte_Soft-Linen_3pcs_PO_3550_YT_20240125_1_OK/HG_Senna_Latte_Soft-Linen_3pcs_PO_3550_YT_20240125_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Senna_Latte_Soft-Linen_3pcs_PO_3550_YT_20240125_1_OK.jpg"
+  },
+  { 
+    name: "English Manor Coral-Blue Shower Curtain", 
+    path: "/recolored_images/English_Manor_Coral-Blue_Shower_Curtain_PO_3654_Koh_20240131_OK/English_Manor_Coral-Blue_Shower_Curtain_PO_3654_Koh_20240131_OK_meta-morphosis.png",
+    originalPath: "/original_images/English_Manor_Coral-Blue_Shower_Curtain_PO_3654_Koh_20240131_OK.jpg"
+  },
+  { 
+    name: "Kiara Texture-White Shower Curtain", 
+    path: "/recolored_images/Kiara_Texture-White_Shower_Curtain_PO_3655_YT_20240129_OK/Kiara_Texture-White_Shower_Curtain_PO_3655_YT_20240129_OK_meta-morphosis.png",
+    originalPath: "/original_images/Kiara_Texture-White_Shower_Curtain_PO_3655_YT_20240129_OK.jpg"
+  },
+  { 
+    name: "Kyra Rain-Rain", 
+    path: "/recolored_images/HG_Kyra_Rain-Rain_10pcs_PO_3552_BW_20240117_1_OK/HG_Kyra_Rain-Rain_10pcs_PO_3552_BW_20240117_1_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Kyra_Rain-Rain_10pcs_PO_3552_BW_20240117_1_OK.jpg"
+  },
+  { 
+    name: "Ariel Jacobean Window Panel", 
+    path: "/recolored_images/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Ariel_Jacobean__Window_Panel_PO_3567_20240125_OK.jpg"
+  },
+  { 
+    name: "Cali Paisley-Sage", 
+    path: "/recolored_images/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK_meta-morphosis.png",
+    originalPath: "/original_images/HG_Cali_Paisley-Sage_6pcs_PO_3690_Koh_20240125_OK.jpg"
+  },
+  { 
+    name: "Sadie Scallop-Salmon", 
+    path: "/recolored_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129_meta-morphosis.png",
+    originalPath: "/original_images/HG_Sadie_Scallop-Salmon_6pcs_PO_3613_YT_20240129.jpg"
+  },
 ],
 
 
@@ -1242,29 +1646,27 @@ export default function EnhancedColorPaletteTabs({ palettes }: ColorPaletteTabsP
                           target.src = '/file.svg';
                         }}
                       />
-          <div className="absolute top-2 left-2 bg-black bg-opacity-75 text-white text-xs px-2 py-1 rounded">
-            Original
-          </div>
-          <div className="absolute top-2 right-2 bg-black bg-opacity-75 text-white p-1 rounded">
-            <Eye className="h-3 w-3" />
-          </div>
-        </div>
+                      <div className="absolute top-2 left-2 bg-black bg-opacity-75 text-white text-xs px-2 py-1 rounded">
+                        Original
+                      </div>
+                      <div className="absolute top-2 right-2 bg-black bg-opacity-75 text-white p-1 rounded">
+                        <Eye className="h-3 w-3" />
+                      </div>
+                    </div>
 
- 
-        {/* <div className={`absolute inset-0 z-5 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center ${
-          hoveredImage === `${activeTab}-${index}` ? "opacity-0" : ""
-        }`}>
-          <div className="text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            Hover to see original
-          </div>
-        </div>
- */}
+                    {/* <div className={`absolute inset-0 z-5 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center ${
+                      hoveredImage === `${activeTab}-${index}` ? "opacity-0" : ""
+                    }`}>
+                      <div className="text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        Hover to see original
+                      </div>
+                    </div> */}
 
-        {/* Product info footer removed */}
-      </div>
-    ))}
-  </div>
-</div>
+                    {/* Product info footer removed */}
+                  </div>
+                ))}
+              </div>
+            </div>
 
             {/* Palette Details */}
             {/* Statistics footer removed */}
